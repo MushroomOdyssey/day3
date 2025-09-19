@@ -8,7 +8,34 @@
 </head>
 
 <body>
-    test
+    <p>An absolute link is one that points to any location that uses the following struction for
+        its destination:</p>
+    </p>
+    <p>scheme://domain/path</p>
+    <p>The <b>scheme</b> indicates the protocol that the browser must use to request the resource, for example http or
+        https.</p>
+    <p>The <b>://</b> is a character pattern that acts as a delimiter between the scheme and the domain. It has no
+        special or inherent meaning. In fact, Tim Berners-Lee (the inventor of the World Wide Web, HTML, the URL system,
+        and HTTP) decided to use this combination of symbols simply because the // was already familiar to him, and the
+        : was more easily human-readable. However, he admits that one small change he would make - if he could do it
+        over again - would have been to drop the // altogether and just use the : after http in URLs!</p>
+    </p>
+    <p>The <b>path</b>, or more specifically the <b>path to the resource</b>, is kind of a map that points us directly
+        to the content we would like to see. On a static website, this is literally the file structure of the folders
+        and documents stored on the server. On a dynamic website, this is a logical path that is interpreted by the
+        software that is delivering the content.</p>
+    <p>There may be a huge string of apparent gibberish that is appended to some URLs. These <b>parameters</b> are often
+        key/value pairs separated with the &amp; symbol. Web servers will use this information to perform some voodoo
+        behind the scenes before presenting the resource to you. You may also see an anchor to a specific section of the
+        resource, identified in the URL by the &#35;.
+    </p>
+    <br>
+    <p>Here are some examples of <b>absolute</b> links:</p>
+    <p><a href="https://www.theodinproject.com/about">https://www.theodinproject.com/about</a></p>
+    <p><a href="https://www.linkedin.com/in/chris-m-gerfen/">https://www.linkedin.com/in/chris-m-gerfen/</a></p>
+    <p><a href="https://www.youtube.com/@ambienttechnomixes">https://www.youtube.com/@ambienttechnomixes</a></p>
+    <br>
+    <p>Now, let's move on to <a href="./relative.html"><b>Relative</b></a> links!</p>
 </body>
 
 </html>
